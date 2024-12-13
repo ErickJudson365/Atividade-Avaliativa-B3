@@ -1,0 +1,99 @@
+body {
+  background-color: #f8f9fa;
+}
+
+#btnTopo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+.rounded-circle,
+.my-4 {
+  border: 2px solid black !important;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.btn-primary:hover {
+  background-color: #004085;
+  border-color: #004085;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+/* Estilização dos cards de projeto */
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: none;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagem dos cards */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Título dos cards */
+.card-title {
+  font-weight: bold;
+}
+
+/* Botões */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Seção de títulos */
+h3 {
+  font-size: 2rem;
+  color: #343a40;
+}
+
+/* Linha divisória */
+hr {
+  width: 50%;
+  margin: 0 auto;
+  border-top: 3px solid #007bff;
+}
+
+/* Botão voltar à página inicial */
+.btn-secondary {
+  padding: 0.75rem 2rem;
+  font-weight: bold;
+}
+
+/* Modal */
+.modal-content {
+  border-radius: 10px;
+}

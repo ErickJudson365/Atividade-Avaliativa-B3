@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projetos de Anna Larissa</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="bg-primary text-white text-center py-4">
+    <h1>Portfólio de Anna Larissa</h1>
+    <nav>
+      <a href="index.html" class="text-white mx-2">Início</a>
+      <a href="projetos.html" class="text-white mx-2">Projetos</a>
+      <a href="contato.html" class="text-white mx-2">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Meus Projetos</h2>
+
+    <div class="row">
+      <!-- Projeto 1 -->
+      <div class="row">
+        <!-- Projeto 1 -->
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="imagens/spotify.png" class="card-img-top" alt="Projeto 1">
+            <div class="card-body">
+              <h5 class="card-title">Projeto Spotify</h5>
+              <p class="card-text">Site para múscias e podcasts</p>
+              <button class="btn btn-primary" data-toggle="modal" data-target="#modalProjeto1">Ver detalhes</button>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Projeto 2 -->
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="imagens/opera.png" class="card-img-top" alt="Projeto 2">
+            <div class="card-body">
+              <h5 class="card-title">Projeto Opera GX</h5>
+              <p class="card-text">Navegador para o público gamer
+              </p>
+              <button class="btn btn-primary" data-toggle="modal" data-target="#modalProjeto2">Ver detalhes</button>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Projeto 3 -->
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="imagens/kabum.png" class="card-img-top" alt="Projeto 3">
+            <div class="card-body">
+              <h5 class="card-title">Projeto Kabum</h5>
+              <p class="card-text">E-commerce de tecnologia</p>
+              <button class="btn btn-primary" data-toggle="modal" data-target="#modalProjeto3">Ver detalhes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Modais para os Projetos -->
+      <!-- Modal Projeto 2 -->
+      <div class="modal fade" id="modalProjeto2" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Opera Gx</h5>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              Opera GX é um navegador voltado para o público gamer, participei ativamente
+                no projeto de criação do navegador e sua interface.
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Modal Projeto 3 -->
+      <div class="modal fade" id="modalProjeto3" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Projeto kabum</h5>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              O e-comerce Kabum é uma das maiores lojas digitais na área de tecnologia da america latina, em minha participação
+              nesse projeto, fiquei responsável pelo front-end da aplicação web.
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Modal Projeto 1 -->
+      <div class="modal fade" id="modalProjeto1" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Projeto Spotify</h5>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              O Spotify é o site mais famoso para quem busca uma boa experiência
+                com músicas, oferecendo uma enorme variedade de músicas por um preço super acessível.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <a href="index.html" class="btn btn-secondary">Voltar à Página Inicial</a>
+    </div>
+    
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <p>&copy; 2024 Anna Larissa. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
